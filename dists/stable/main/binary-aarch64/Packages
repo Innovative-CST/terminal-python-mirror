@@ -1,0 +1,69 @@
+Package: python
+Installed-Size: 24560
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Architecture: aarch64
+Version: 3.13.12-5
+Replaces: python-dev
+Provides: python3
+Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libexpat, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
+Recommends: python-ensurepip-wheels, python-pip
+Suggests: python-tkinter
+Breaks: python2 (<= 2.7.15), python-dev
+Filename: pool/main/p/python/python_3.13.12-5_aarch64.deb
+Size: 4535984
+MD5sum: eafc610d1463686b195dd365105475a3
+SHA1: 48374467646fd749c45abb264946a4560a977604
+SHA256: a7f9bca5e9fc3d9887a1af3d8732468f47d345c6839c256966e0d47739752e6e
+SHA512: 05b4c218d573c55cea2bca4ccae05f094ba250040932bcca71aa92dc9816c89ae6e111da63d91bc679f6650d8a2170ef536a892aa1dfc5e8bb834c0a10bc07bf
+Description: Python 3 programming language intended to enable clear programs
+Homepage: https://python.org/
+
+Package: python-ensurepip-wheels
+Installed-Size: 1780
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Architecture: all
+Version: 3.13.12-5
+Replaces: python (<< 3.11.1-3)
+Depends: python (= 3.13.12-5)
+Breaks: python (<< 3.11.1-3)
+Filename: pool/main/p/python-ensurepip-wheels/python-ensurepip-wheels_3.13.12-5_all.deb
+Size: 1704180
+MD5sum: 679e6175bfbd838ff9bf3c201b517ff9
+SHA1: 6e2ea70edcf5707937e5c5047c357dc550fb0b29
+SHA256: 9e6d72849ba9010a97229c35d1451ad512bcabb0335d6f6ac551c293706ec830
+SHA512: 00730dc38b072651dde5959e28435c2bacb1bf9d5e0bfaf45ff3c4a95e072249892dd96157d97d1bdc9cd08761df938049d2732570dfcee49a5eb5be7c0c9ccb
+Description: Wheels for Python ensurepip
+Homepage: https://python.org/
+
+Package: python-static
+Installed-Size: 49672
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Architecture: aarch64
+Version: 3.13.12-5
+Depends: python (= 3.13.12-5)
+Filename: pool/main/p/python-static/python-static_3.13.12-5_aarch64.deb
+Size: 7279760
+MD5sum: 7525f7ae09ac9955121f2058f29dfe5e
+SHA1: 7686ceb7ca735cc6807443fe8b2fe98eecc65077
+SHA256: 1da24e95538b262711e51eb4e7f88456fb39dc360aaa60ec2c82f0db4a55fb53
+SHA512: dd14b4a95e80a0771c1cd5a0387351f634d520b78bb9ac78e9a473a1e683e0f388dce67041b702e36b83abfa7db5d93ace95f635aa7dcbb94b8cdf2a76d35d3f
+Description: Static libraries for python
+Homepage: https://python.org/
+
+Package: python-tkinter
+Installed-Size: 2628
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Architecture: aarch64
+Version: 3.13.12-5
+Replaces: python (<< 3.11.1-3)
+Depends: tcl, tk, python (= 3.13.12-5)
+Breaks: python (<< 3.11.1-3)
+Filename: pool/main/p/python-tkinter/python-tkinter_3.13.12-5_aarch64.deb
+Size: 506200
+MD5sum: f56fac1e22d75df05f7157c98a0ceac0
+SHA1: be361ba71bdd480537900a8dbacccef7302b561b
+SHA256: 0e8184eb7bb03aca1991e7dca1dc060f8f44b9d898b8f33eb835052a61fec31b
+SHA512: fa6f126fa1efb51dc618b60f6bca188f03c58bf673d9c5b91dd213747daea8d6aa59c73cb5f392bbf0029fc0672108de44b1567e0257c5a5e9aaf10f82f2540b
+Description: Tkinter support for Python 3
+Homepage: https://python.org/
+
